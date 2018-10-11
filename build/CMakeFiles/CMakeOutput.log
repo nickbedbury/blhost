@@ -1,0 +1,535 @@
+The target system is: Buildroot -  - armv7l
+The host system is: Linux - 4.15.0-36-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/nickbedbury/buildroot/output/host/bin/arm-buildroot-linux-gnueabihf-gcc 
+Build flags: -D_LARGEFILE_SOURCE;-D_LARGEFILE64_SOURCE;-D_FILE_OFFSET_BITS=64;-Os
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/nickbedbury/blhost/build/CMakeFiles/3.5.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/nickbedbury/buildroot/output/host/bin/arm-buildroot-linux-gnueabihf-g++ 
+Build flags: -D_LARGEFILE_SOURCE;-D_LARGEFILE64_SOURCE;-D_FILE_OFFSET_BITS=64;-Os
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/nickbedbury/blhost/build/CMakeFiles/3.5.1/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/nickbedbury/blhost/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_239b1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_239b1.dir/build.make CMakeFiles/cmTC_239b1.dir/build
+make[1]: Entering directory '/home/nickbedbury/blhost/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_239b1.dir/testCCompiler.c.o
+/home/nickbedbury/buildroot/output/host/bin/arm-buildroot-linux-gnueabihf-gcc  --sysroot=/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot   -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os   -DNDEBUG   -o CMakeFiles/cmTC_239b1.dir/testCCompiler.c.o   -c /home/nickbedbury/blhost/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_239b1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_239b1.dir/link.txt --verbose=1
+/home/nickbedbury/buildroot/output/host/bin/arm-buildroot-linux-gnueabihf-gcc  --sysroot=/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os   -DNDEBUG    CMakeFiles/cmTC_239b1.dir/testCCompiler.c.o  -o cmTC_239b1 -rdynamic 
+make[1]: Leaving directory '/home/nickbedbury/blhost/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/nickbedbury/blhost/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3ed93/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3ed93.dir/build.make CMakeFiles/cmTC_3ed93.dir/build
+make[1]: Entering directory '/home/nickbedbury/blhost/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3ed93.dir/CMakeCCompilerABI.c.o
+/home/nickbedbury/buildroot/output/host/bin/arm-buildroot-linux-gnueabihf-gcc  --sysroot=/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot   -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os   -DNDEBUG   -o CMakeFiles/cmTC_3ed93.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_3ed93
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ed93.dir/link.txt --verbose=1
+/home/nickbedbury/buildroot/output/host/bin/arm-buildroot-linux-gnueabihf-gcc  --sysroot=/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os   -DNDEBUG   -v CMakeFiles/cmTC_3ed93.dir/CMakeCCompilerABI.c.o  -o cmTC_3ed93 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/home/nickbedbury/buildroot/output/host/bin/arm-buildroot-linux-gnueabihf-gcc.br_real
+COLLECT_LTO_WRAPPER=/home/nickbedbury/buildroot/output/host/libexec/gcc/arm-buildroot-linux-gnueabihf/6.4.0/lto-wrapper
+Target: arm-buildroot-linux-gnueabihf
+Configured with: ./configure --prefix=/home/nickbedbury/buildroot/output/host --sysconfdir=/home/nickbedbury/buildroot/output/host/etc --enable-static --target=arm-buildroot-linux-gnueabihf --with-sysroot=/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot --disable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --with-gmp=/home/nickbedbury/buildroot/output/host --with-mpc=/home/nickbedbury/buildroot/output/host --with-mpfr=/home/nickbedbury/buildroot/output/host --with-pkgversion='Buildroot 2018.02-00155-ga6af5dd' --with-bugurl=http://bugs.buildroot.net/ --disable-libquadmath --enable-tls --disable-libmudflap --enable-threads --without-isl --without-cloog --disable-decimal-float --with-abi=aapcs-linux --with-cpu=cortex-a7 --with-fpu=vfpv4-d16 --with-float=hard --with-mode=arm --enable-languages=c,c++ --with-build-time-tools=/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/bin --enable-shared --disable-libgomp
+Thread model: posix
+gcc version 6.4.0 (Buildroot 2018.02-00155-ga6af5dd) 
+COMPILER_PATH=/home/nickbedbury/buildroot/output/host/libexec/gcc/arm-buildroot-linux-gnueabihf/6.4.0/:/home/nickbedbury/buildroot/output/host/libexec/gcc/arm-buildroot-linux-gnueabihf/6.4.0/:/home/nickbedbury/buildroot/output/host/libexec/gcc/arm-buildroot-linux-gnueabihf/:/home/nickbedbury/buildroot/output/host/lib/gcc/arm-buildroot-linux-gnueabihf/6.4.0/:/home/nickbedbury/buildroot/output/host/lib/gcc/arm-buildroot-linux-gnueabihf/:/home/nickbedbury/buildroot/output/host/lib/gcc/arm-buildroot-linux-gnueabihf/6.4.0/../../../../arm-buildroot-linux-gnueabihf/bin/
+LIBRARY_PATH=/home/nickbedbury/buildroot/output/host/lib/gcc/arm-buildroot-linux-gnueabihf/6.4.0/:/home/nickbedbury/buildroot/output/host/lib/gcc/arm-buildroot-linux-gnueabihf/6.4.0/../../../../arm-buildroot-linux-gnueabihf/lib/:/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot/lib/:/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-Os' '-D' 'NDEBUG' '-v' '-o' 'cmTC_3ed93' '-rdynamic' '-mcpu=cortex-a7' '-mfloat-abi=hard' '-mfpu=vfpv4-d16' '-mabi=aapcs-linux' '-marm' '-mtls-dialect=gnu'
+ /home/nickbedbury/buildroot/output/host/libexec/gcc/arm-buildroot-linux-gnueabihf/6.4.0/collect2 -plugin /home/nickbedbury/buildroot/output/host/libexec/gcc/arm-buildroot-linux-gnueabihf/6.4.0/liblto_plugin.so -plugin-opt=/home/nickbedbury/buildroot/output/host/libexec/gcc/arm-buildroot-linux-gnueabihf/6.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cceRj70i.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_3ed93 /home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot/lib/crt1.o /home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot/lib/crti.o /home/nickbedbury/buildroot/output/host/lib/gcc/arm-buildroot-linux-gnueabihf/6.4.0/crtbegin.o -L/home/nickbedbury/buildroot/output/host/lib/gcc/arm-buildroot-linux-gnueabihf/6.4.0 -L/home/nickbedbury/buildroot/output/host/lib/gcc/arm-buildroot-linux-gnueabihf/6.4.0/../../../../arm-buildroot-linux-gnueabihf/lib -L/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot/lib -L/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib CMakeFiles/cmTC_3ed93.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/nickbedbury/buildroot/output/host/lib/gcc/arm-buildroot-linux-gnueabihf/6.4.0/crtend.o /home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot/lib/crtn.o
+COLLECT_GCC_OPTIONS='-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-Os' '-D' 'NDEBUG' '-v' '-o' 'cmTC_3ed93' '-rdynamic' '-mcpu=cortex-a7' '-mfloat-abi=hard' '-mfpu=vfpv4-d16' '-mabi=aapcs-linux' '-marm' '-mtls-dialect=gnu'
+make[1]: Leaving directory '/home/nickbedbury/blhost/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-buildroot-linux-gnueabihf-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/nickbedbury/blhost/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_3ed93/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_3ed93.dir/build.make CMakeFiles/cmTC_3ed93.dir/build]
+  ignore line: [make[1]: Entering directory '/home/nickbedbury/blhost/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_3ed93.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/home/nickbedbury/buildroot/output/host/bin/arm-buildroot-linux-gnueabihf-gcc  --sysroot=/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot   -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os   -DNDEBUG   -o CMakeFiles/cmTC_3ed93.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_3ed93]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ed93.dir/link.txt --verbose=1]
+  ignore line: [/home/nickbedbury/buildroot/output/host/bin/arm-buildroot-linux-gnueabihf-gcc  --sysroot=/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os   -DNDEBUG   -v CMakeFiles/cmTC_3ed93.dir/CMakeCCompilerABI.c.o  -o cmTC_3ed93 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/nickbedbury/buildroot/output/host/bin/arm-buildroot-linux-gnueabihf-gcc.br_real]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/nickbedbury/buildroot/output/host/libexec/gcc/arm-buildroot-linux-gnueabihf/6.4.0/lto-wrapper]
+  ignore line: [Target: arm-buildroot-linux-gnueabihf]
+  ignore line: [Configured with: ./configure --prefix=/home/nickbedbury/buildroot/output/host --sysconfdir=/home/nickbedbury/buildroot/output/host/etc --enable-static --target=arm-buildroot-linux-gnueabihf --with-sysroot=/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot --disable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --with-gmp=/home/nickbedbury/buildroot/output/host --with-mpc=/home/nickbedbury/buildroot/output/host --with-mpfr=/home/nickbedbury/buildroot/output/host --with-pkgversion='Buildroot 2018.02-00155-ga6af5dd' --with-bugurl=http://bugs.buildroot.net/ --disable-libquadmath --enable-tls --disable-libmudflap --enable-threads --without-isl --without-cloog --disable-decimal-float --with-abi=aapcs-linux --with-cpu=cortex-a7 --with-fpu=vfpv4-d16 --with-float=hard --with-mode=arm --enable-languages=c,c++ --with-build-time-tools=/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/bin --enable-shared --disable-libgomp]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 6.4.0 (Buildroot 2018.02-00155-ga6af5dd) ]
+  ignore line: [COMPILER_PATH=/home/nickbedbury/buildroot/output/host/libexec/gcc/arm-buildroot-linux-gnueabihf/6.4.0/:/home/nickbedbury/buildroot/output/host/libexec/gcc/arm-buildroot-linux-gnueabihf/6.4.0/:/home/nickbedbury/buildroot/output/host/libexec/gcc/arm-buildroot-linux-gnueabihf/:/home/nickbedbury/buildroot/output/host/lib/gcc/arm-buildroot-linux-gnueabihf/6.4.0/:/home/nickbedbury/buildroot/output/host/lib/gcc/arm-buildroot-linux-gnueabihf/:/home/nickbedbury/buildroot/output/host/lib/gcc/arm-buildroot-linux-gnueabihf/6.4.0/../../../../arm-buildroot-linux-gnueabihf/bin/]
+  ignore line: [LIBRARY_PATH=/home/nickbedbury/buildroot/output/host/lib/gcc/arm-buildroot-linux-gnueabihf/6.4.0/:/home/nickbedbury/buildroot/output/host/lib/gcc/arm-buildroot-linux-gnueabihf/6.4.0/../../../../arm-buildroot-linux-gnueabihf/lib/:/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot/lib/:/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-Os' '-D' 'NDEBUG' '-v' '-o' 'cmTC_3ed93' '-rdynamic' '-mcpu=cortex-a7' '-mfloat-abi=hard' '-mfpu=vfpv4-d16' '-mabi=aapcs-linux' '-marm' '-mtls-dialect=gnu']
+  link line: [ /home/nickbedbury/buildroot/output/host/libexec/gcc/arm-buildroot-linux-gnueabihf/6.4.0/collect2 -plugin /home/nickbedbury/buildroot/output/host/libexec/gcc/arm-buildroot-linux-gnueabihf/6.4.0/liblto_plugin.so -plugin-opt=/home/nickbedbury/buildroot/output/host/libexec/gcc/arm-buildroot-linux-gnueabihf/6.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cceRj70i.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_3ed93 /home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot/lib/crt1.o /home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot/lib/crti.o /home/nickbedbury/buildroot/output/host/lib/gcc/arm-buildroot-linux-gnueabihf/6.4.0/crtbegin.o -L/home/nickbedbury/buildroot/output/host/lib/gcc/arm-buildroot-linux-gnueabihf/6.4.0 -L/home/nickbedbury/buildroot/output/host/lib/gcc/arm-buildroot-linux-gnueabihf/6.4.0/../../../../arm-buildroot-linux-gnueabihf/lib -L/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot/lib -L/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib CMakeFiles/cmTC_3ed93.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/nickbedbury/buildroot/output/host/lib/gcc/arm-buildroot-linux-gnueabihf/6.4.0/crtend.o /home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot/lib/crtn.o]
+    arg [/home/nickbedbury/buildroot/output/host/libexec/gcc/arm-buildroot-linux-gnueabihf/6.4.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/nickbedbury/buildroot/output/host/libexec/gcc/arm-buildroot-linux-gnueabihf/6.4.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/nickbedbury/buildroot/output/host/libexec/gcc/arm-buildroot-linux-gnueabihf/6.4.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cceRj70i.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-armhf.so.3] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_3ed93] ==> ignore
+    arg [/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot/lib/crt1.o] ==> ignore
+    arg [/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot/lib/crti.o] ==> ignore
+    arg [/home/nickbedbury/buildroot/output/host/lib/gcc/arm-buildroot-linux-gnueabihf/6.4.0/crtbegin.o] ==> ignore
+    arg [-L/home/nickbedbury/buildroot/output/host/lib/gcc/arm-buildroot-linux-gnueabihf/6.4.0] ==> dir [/home/nickbedbury/buildroot/output/host/lib/gcc/arm-buildroot-linux-gnueabihf/6.4.0]
+    arg [-L/home/nickbedbury/buildroot/output/host/lib/gcc/arm-buildroot-linux-gnueabihf/6.4.0/../../../../arm-buildroot-linux-gnueabihf/lib] ==> dir [/home/nickbedbury/buildroot/output/host/lib/gcc/arm-buildroot-linux-gnueabihf/6.4.0/../../../../arm-buildroot-linux-gnueabihf/lib]
+    arg [-L/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot/lib] ==> dir [/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot/lib]
+    arg [-L/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib] ==> dir [/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib]
+    arg [CMakeFiles/cmTC_3ed93.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/home/nickbedbury/buildroot/output/host/lib/gcc/arm-buildroot-linux-gnueabihf/6.4.0/crtend.o] ==> ignore
+    arg [/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot/lib/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/home/nickbedbury/buildroot/output/host/lib/gcc/arm-buildroot-linux-gnueabihf/6.4.0] ==> [/home/nickbedbury/buildroot/output/host/lib/gcc/arm-buildroot-linux-gnueabihf/6.4.0]
+  collapse library dir [/home/nickbedbury/buildroot/output/host/lib/gcc/arm-buildroot-linux-gnueabihf/6.4.0/../../../../arm-buildroot-linux-gnueabihf/lib] ==> [/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/lib]
+  collapse library dir [/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot/lib] ==> [/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot/lib]
+  collapse library dir [/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib] ==> [/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/home/nickbedbury/buildroot/output/host/lib/gcc/arm-buildroot-linux-gnueabihf/6.4.0;/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/lib;/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot/lib;/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/nickbedbury/blhost/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c3ff1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c3ff1.dir/build.make CMakeFiles/cmTC_c3ff1.dir/build
+make[1]: Entering directory '/home/nickbedbury/blhost/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c3ff1.dir/feature_tests.c.o
+/home/nickbedbury/buildroot/output/host/bin/arm-buildroot-linux-gnueabihf-gcc  --sysroot=/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot   -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os   -DNDEBUG   -std=c11 -o CMakeFiles/cmTC_c3ff1.dir/feature_tests.c.o   -c /home/nickbedbury/blhost/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_c3ff1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3ff1.dir/link.txt --verbose=1
+/home/nickbedbury/buildroot/output/host/bin/arm-buildroot-linux-gnueabihf-gcc  --sysroot=/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os   -DNDEBUG    CMakeFiles/cmTC_c3ff1.dir/feature_tests.c.o  -o cmTC_c3ff1 -rdynamic 
+make[1]: Leaving directory '/home/nickbedbury/blhost/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/nickbedbury/blhost/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fa5b3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fa5b3.dir/build.make CMakeFiles/cmTC_fa5b3.dir/build
+make[1]: Entering directory '/home/nickbedbury/blhost/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fa5b3.dir/feature_tests.c.o
+/home/nickbedbury/buildroot/output/host/bin/arm-buildroot-linux-gnueabihf-gcc  --sysroot=/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot   -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os   -DNDEBUG   -std=c99 -o CMakeFiles/cmTC_fa5b3.dir/feature_tests.c.o   -c /home/nickbedbury/blhost/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_fa5b3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fa5b3.dir/link.txt --verbose=1
+/home/nickbedbury/buildroot/output/host/bin/arm-buildroot-linux-gnueabihf-gcc  --sysroot=/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os   -DNDEBUG    CMakeFiles/cmTC_fa5b3.dir/feature_tests.c.o  -o cmTC_fa5b3 -rdynamic 
+make[1]: Leaving directory '/home/nickbedbury/blhost/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/nickbedbury/blhost/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f30e7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f30e7.dir/build.make CMakeFiles/cmTC_f30e7.dir/build
+make[1]: Entering directory '/home/nickbedbury/blhost/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f30e7.dir/feature_tests.c.o
+/home/nickbedbury/buildroot/output/host/bin/arm-buildroot-linux-gnueabihf-gcc  --sysroot=/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot   -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os   -DNDEBUG   -std=c90 -o CMakeFiles/cmTC_f30e7.dir/feature_tests.c.o   -c /home/nickbedbury/blhost/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_f30e7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f30e7.dir/link.txt --verbose=1
+/home/nickbedbury/buildroot/output/host/bin/arm-buildroot-linux-gnueabihf-gcc  --sysroot=/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os   -DNDEBUG    CMakeFiles/cmTC_f30e7.dir/feature_tests.c.o  -o cmTC_f30e7 -rdynamic 
+make[1]: Leaving directory '/home/nickbedbury/blhost/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/nickbedbury/blhost/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_65b75/fast"
+/usr/bin/make -f CMakeFiles/cmTC_65b75.dir/build.make CMakeFiles/cmTC_65b75.dir/build
+make[1]: Entering directory '/home/nickbedbury/blhost/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_65b75.dir/testCXXCompiler.cxx.o
+/home/nickbedbury/buildroot/output/host/bin/arm-buildroot-linux-gnueabihf-g++  --sysroot=/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot    -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os   -DNDEBUG   -o CMakeFiles/cmTC_65b75.dir/testCXXCompiler.cxx.o -c /home/nickbedbury/blhost/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_65b75
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_65b75.dir/link.txt --verbose=1
+/home/nickbedbury/buildroot/output/host/bin/arm-buildroot-linux-gnueabihf-g++  --sysroot=/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot  -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os   -DNDEBUG    CMakeFiles/cmTC_65b75.dir/testCXXCompiler.cxx.o  -o cmTC_65b75 -rdynamic 
+make[1]: Leaving directory '/home/nickbedbury/blhost/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/nickbedbury/blhost/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dc807/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dc807.dir/build.make CMakeFiles/cmTC_dc807.dir/build
+make[1]: Entering directory '/home/nickbedbury/blhost/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_dc807.dir/CMakeCXXCompilerABI.cpp.o
+/home/nickbedbury/buildroot/output/host/bin/arm-buildroot-linux-gnueabihf-g++  --sysroot=/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot    -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os   -DNDEBUG   -o CMakeFiles/cmTC_dc807.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_dc807
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc807.dir/link.txt --verbose=1
+/home/nickbedbury/buildroot/output/host/bin/arm-buildroot-linux-gnueabihf-g++  --sysroot=/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot  -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os   -DNDEBUG   -v CMakeFiles/cmTC_dc807.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_dc807 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/home/nickbedbury/buildroot/output/host/bin/arm-buildroot-linux-gnueabihf-g++.br_real
+COLLECT_LTO_WRAPPER=/home/nickbedbury/buildroot/output/host/libexec/gcc/arm-buildroot-linux-gnueabihf/6.4.0/lto-wrapper
+Target: arm-buildroot-linux-gnueabihf
+Configured with: ./configure --prefix=/home/nickbedbury/buildroot/output/host --sysconfdir=/home/nickbedbury/buildroot/output/host/etc --enable-static --target=arm-buildroot-linux-gnueabihf --with-sysroot=/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot --disable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --with-gmp=/home/nickbedbury/buildroot/output/host --with-mpc=/home/nickbedbury/buildroot/output/host --with-mpfr=/home/nickbedbury/buildroot/output/host --with-pkgversion='Buildroot 2018.02-00155-ga6af5dd' --with-bugurl=http://bugs.buildroot.net/ --disable-libquadmath --enable-tls --disable-libmudflap --enable-threads --without-isl --without-cloog --disable-decimal-float --with-abi=aapcs-linux --with-cpu=cortex-a7 --with-fpu=vfpv4-d16 --with-float=hard --with-mode=arm --enable-languages=c,c++ --with-build-time-tools=/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/bin --enable-shared --disable-libgomp
+Thread model: posix
+gcc version 6.4.0 (Buildroot 2018.02-00155-ga6af5dd) 
+COMPILER_PATH=/home/nickbedbury/buildroot/output/host/libexec/gcc/arm-buildroot-linux-gnueabihf/6.4.0/:/home/nickbedbury/buildroot/output/host/libexec/gcc/arm-buildroot-linux-gnueabihf/6.4.0/:/home/nickbedbury/buildroot/output/host/libexec/gcc/arm-buildroot-linux-gnueabihf/:/home/nickbedbury/buildroot/output/host/lib/gcc/arm-buildroot-linux-gnueabihf/6.4.0/:/home/nickbedbury/buildroot/output/host/lib/gcc/arm-buildroot-linux-gnueabihf/:/home/nickbedbury/buildroot/output/host/lib/gcc/arm-buildroot-linux-gnueabihf/6.4.0/../../../../arm-buildroot-linux-gnueabihf/bin/
+LIBRARY_PATH=/home/nickbedbury/buildroot/output/host/lib/gcc/arm-buildroot-linux-gnueabihf/6.4.0/:/home/nickbedbury/buildroot/output/host/lib/gcc/arm-buildroot-linux-gnueabihf/6.4.0/../../../../arm-buildroot-linux-gnueabihf/lib/:/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot/lib/:/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-Os' '-D' 'NDEBUG' '-v' '-o' 'cmTC_dc807' '-rdynamic' '-shared-libgcc' '-mcpu=cortex-a7' '-mfloat-abi=hard' '-mfpu=vfpv4-d16' '-mabi=aapcs-linux' '-marm' '-mtls-dialect=gnu'
+ /home/nickbedbury/buildroot/output/host/libexec/gcc/arm-buildroot-linux-gnueabihf/6.4.0/collect2 -plugin /home/nickbedbury/buildroot/output/host/libexec/gcc/arm-buildroot-linux-gnueabihf/6.4.0/liblto_plugin.so -plugin-opt=/home/nickbedbury/buildroot/output/host/libexec/gcc/arm-buildroot-linux-gnueabihf/6.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cchrAxe3.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_dc807 /home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot/lib/crt1.o /home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot/lib/crti.o /home/nickbedbury/buildroot/output/host/lib/gcc/arm-buildroot-linux-gnueabihf/6.4.0/crtbegin.o -L/home/nickbedbury/buildroot/output/host/lib/gcc/arm-buildroot-linux-gnueabihf/6.4.0 -L/home/nickbedbury/buildroot/output/host/lib/gcc/arm-buildroot-linux-gnueabihf/6.4.0/../../../../arm-buildroot-linux-gnueabihf/lib -L/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot/lib -L/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib CMakeFiles/cmTC_dc807.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/nickbedbury/buildroot/output/host/lib/gcc/arm-buildroot-linux-gnueabihf/6.4.0/crtend.o /home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot/lib/crtn.o
+COLLECT_GCC_OPTIONS='-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-Os' '-D' 'NDEBUG' '-v' '-o' 'cmTC_dc807' '-rdynamic' '-shared-libgcc' '-mcpu=cortex-a7' '-mfloat-abi=hard' '-mfpu=vfpv4-d16' '-mabi=aapcs-linux' '-marm' '-mtls-dialect=gnu'
+make[1]: Leaving directory '/home/nickbedbury/blhost/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-buildroot-linux-gnueabihf-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/nickbedbury/blhost/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_dc807/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_dc807.dir/build.make CMakeFiles/cmTC_dc807.dir/build]
+  ignore line: [make[1]: Entering directory '/home/nickbedbury/blhost/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_dc807.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/home/nickbedbury/buildroot/output/host/bin/arm-buildroot-linux-gnueabihf-g++  --sysroot=/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot    -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os   -DNDEBUG   -o CMakeFiles/cmTC_dc807.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_dc807]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc807.dir/link.txt --verbose=1]
+  ignore line: [/home/nickbedbury/buildroot/output/host/bin/arm-buildroot-linux-gnueabihf-g++  --sysroot=/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot  -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os   -DNDEBUG   -v CMakeFiles/cmTC_dc807.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_dc807 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/nickbedbury/buildroot/output/host/bin/arm-buildroot-linux-gnueabihf-g++.br_real]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/nickbedbury/buildroot/output/host/libexec/gcc/arm-buildroot-linux-gnueabihf/6.4.0/lto-wrapper]
+  ignore line: [Target: arm-buildroot-linux-gnueabihf]
+  ignore line: [Configured with: ./configure --prefix=/home/nickbedbury/buildroot/output/host --sysconfdir=/home/nickbedbury/buildroot/output/host/etc --enable-static --target=arm-buildroot-linux-gnueabihf --with-sysroot=/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot --disable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --with-gmp=/home/nickbedbury/buildroot/output/host --with-mpc=/home/nickbedbury/buildroot/output/host --with-mpfr=/home/nickbedbury/buildroot/output/host --with-pkgversion='Buildroot 2018.02-00155-ga6af5dd' --with-bugurl=http://bugs.buildroot.net/ --disable-libquadmath --enable-tls --disable-libmudflap --enable-threads --without-isl --without-cloog --disable-decimal-float --with-abi=aapcs-linux --with-cpu=cortex-a7 --with-fpu=vfpv4-d16 --with-float=hard --with-mode=arm --enable-languages=c,c++ --with-build-time-tools=/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/bin --enable-shared --disable-libgomp]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 6.4.0 (Buildroot 2018.02-00155-ga6af5dd) ]
+  ignore line: [COMPILER_PATH=/home/nickbedbury/buildroot/output/host/libexec/gcc/arm-buildroot-linux-gnueabihf/6.4.0/:/home/nickbedbury/buildroot/output/host/libexec/gcc/arm-buildroot-linux-gnueabihf/6.4.0/:/home/nickbedbury/buildroot/output/host/libexec/gcc/arm-buildroot-linux-gnueabihf/:/home/nickbedbury/buildroot/output/host/lib/gcc/arm-buildroot-linux-gnueabihf/6.4.0/:/home/nickbedbury/buildroot/output/host/lib/gcc/arm-buildroot-linux-gnueabihf/:/home/nickbedbury/buildroot/output/host/lib/gcc/arm-buildroot-linux-gnueabihf/6.4.0/../../../../arm-buildroot-linux-gnueabihf/bin/]
+  ignore line: [LIBRARY_PATH=/home/nickbedbury/buildroot/output/host/lib/gcc/arm-buildroot-linux-gnueabihf/6.4.0/:/home/nickbedbury/buildroot/output/host/lib/gcc/arm-buildroot-linux-gnueabihf/6.4.0/../../../../arm-buildroot-linux-gnueabihf/lib/:/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot/lib/:/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-D' '_LARGEFILE_SOURCE' '-D' '_LARGEFILE64_SOURCE' '-D' '_FILE_OFFSET_BITS=64' '-Os' '-D' 'NDEBUG' '-v' '-o' 'cmTC_dc807' '-rdynamic' '-shared-libgcc' '-mcpu=cortex-a7' '-mfloat-abi=hard' '-mfpu=vfpv4-d16' '-mabi=aapcs-linux' '-marm' '-mtls-dialect=gnu']
+  link line: [ /home/nickbedbury/buildroot/output/host/libexec/gcc/arm-buildroot-linux-gnueabihf/6.4.0/collect2 -plugin /home/nickbedbury/buildroot/output/host/libexec/gcc/arm-buildroot-linux-gnueabihf/6.4.0/liblto_plugin.so -plugin-opt=/home/nickbedbury/buildroot/output/host/libexec/gcc/arm-buildroot-linux-gnueabihf/6.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cchrAxe3.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_dc807 /home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot/lib/crt1.o /home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot/lib/crti.o /home/nickbedbury/buildroot/output/host/lib/gcc/arm-buildroot-linux-gnueabihf/6.4.0/crtbegin.o -L/home/nickbedbury/buildroot/output/host/lib/gcc/arm-buildroot-linux-gnueabihf/6.4.0 -L/home/nickbedbury/buildroot/output/host/lib/gcc/arm-buildroot-linux-gnueabihf/6.4.0/../../../../arm-buildroot-linux-gnueabihf/lib -L/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot/lib -L/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib CMakeFiles/cmTC_dc807.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/nickbedbury/buildroot/output/host/lib/gcc/arm-buildroot-linux-gnueabihf/6.4.0/crtend.o /home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot/lib/crtn.o]
+    arg [/home/nickbedbury/buildroot/output/host/libexec/gcc/arm-buildroot-linux-gnueabihf/6.4.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/nickbedbury/buildroot/output/host/libexec/gcc/arm-buildroot-linux-gnueabihf/6.4.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/nickbedbury/buildroot/output/host/libexec/gcc/arm-buildroot-linux-gnueabihf/6.4.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cchrAxe3.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-armhf.so.3] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_dc807] ==> ignore
+    arg [/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot/lib/crt1.o] ==> ignore
+    arg [/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot/lib/crti.o] ==> ignore
+    arg [/home/nickbedbury/buildroot/output/host/lib/gcc/arm-buildroot-linux-gnueabihf/6.4.0/crtbegin.o] ==> ignore
+    arg [-L/home/nickbedbury/buildroot/output/host/lib/gcc/arm-buildroot-linux-gnueabihf/6.4.0] ==> dir [/home/nickbedbury/buildroot/output/host/lib/gcc/arm-buildroot-linux-gnueabihf/6.4.0]
+    arg [-L/home/nickbedbury/buildroot/output/host/lib/gcc/arm-buildroot-linux-gnueabihf/6.4.0/../../../../arm-buildroot-linux-gnueabihf/lib] ==> dir [/home/nickbedbury/buildroot/output/host/lib/gcc/arm-buildroot-linux-gnueabihf/6.4.0/../../../../arm-buildroot-linux-gnueabihf/lib]
+    arg [-L/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot/lib] ==> dir [/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot/lib]
+    arg [-L/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib] ==> dir [/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib]
+    arg [CMakeFiles/cmTC_dc807.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/home/nickbedbury/buildroot/output/host/lib/gcc/arm-buildroot-linux-gnueabihf/6.4.0/crtend.o] ==> ignore
+    arg [/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot/lib/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/home/nickbedbury/buildroot/output/host/lib/gcc/arm-buildroot-linux-gnueabihf/6.4.0] ==> [/home/nickbedbury/buildroot/output/host/lib/gcc/arm-buildroot-linux-gnueabihf/6.4.0]
+  collapse library dir [/home/nickbedbury/buildroot/output/host/lib/gcc/arm-buildroot-linux-gnueabihf/6.4.0/../../../../arm-buildroot-linux-gnueabihf/lib] ==> [/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/lib]
+  collapse library dir [/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot/lib] ==> [/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot/lib]
+  collapse library dir [/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib] ==> [/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/home/nickbedbury/buildroot/output/host/lib/gcc/arm-buildroot-linux-gnueabihf/6.4.0;/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/lib;/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot/lib;/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/nickbedbury/blhost/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_862e8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_862e8.dir/build.make CMakeFiles/cmTC_862e8.dir/build
+make[1]: Entering directory '/home/nickbedbury/blhost/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_862e8.dir/feature_tests.cxx.o
+/home/nickbedbury/buildroot/output/host/bin/arm-buildroot-linux-gnueabihf-g++  --sysroot=/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot    -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os   -DNDEBUG   -std=c++14 -o CMakeFiles/cmTC_862e8.dir/feature_tests.cxx.o -c /home/nickbedbury/blhost/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_862e8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_862e8.dir/link.txt --verbose=1
+/home/nickbedbury/buildroot/output/host/bin/arm-buildroot-linux-gnueabihf-g++  --sysroot=/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot  -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os   -DNDEBUG    CMakeFiles/cmTC_862e8.dir/feature_tests.cxx.o  -o cmTC_862e8 -rdynamic 
+make[1]: Leaving directory '/home/nickbedbury/blhost/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/nickbedbury/blhost/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_211be/fast"
+/usr/bin/make -f CMakeFiles/cmTC_211be.dir/build.make CMakeFiles/cmTC_211be.dir/build
+make[1]: Entering directory '/home/nickbedbury/blhost/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_211be.dir/feature_tests.cxx.o
+/home/nickbedbury/buildroot/output/host/bin/arm-buildroot-linux-gnueabihf-g++  --sysroot=/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot    -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os   -DNDEBUG   -std=c++11 -o CMakeFiles/cmTC_211be.dir/feature_tests.cxx.o -c /home/nickbedbury/blhost/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_211be
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_211be.dir/link.txt --verbose=1
+/home/nickbedbury/buildroot/output/host/bin/arm-buildroot-linux-gnueabihf-g++  --sysroot=/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot  -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os   -DNDEBUG    CMakeFiles/cmTC_211be.dir/feature_tests.cxx.o  -o cmTC_211be -rdynamic 
+make[1]: Leaving directory '/home/nickbedbury/blhost/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/nickbedbury/blhost/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_488de/fast"
+/usr/bin/make -f CMakeFiles/cmTC_488de.dir/build.make CMakeFiles/cmTC_488de.dir/build
+make[1]: Entering directory '/home/nickbedbury/blhost/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_488de.dir/feature_tests.cxx.o
+/home/nickbedbury/buildroot/output/host/bin/arm-buildroot-linux-gnueabihf-g++  --sysroot=/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot    -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os   -DNDEBUG   -std=c++98 -o CMakeFiles/cmTC_488de.dir/feature_tests.cxx.o -c /home/nickbedbury/blhost/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_488de
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_488de.dir/link.txt --verbose=1
+/home/nickbedbury/buildroot/output/host/bin/arm-buildroot-linux-gnueabihf-g++  --sysroot=/home/nickbedbury/buildroot/output/host/arm-buildroot-linux-gnueabihf/sysroot  -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os   -DNDEBUG    CMakeFiles/cmTC_488de.dir/feature_tests.cxx.o  -o cmTC_488de -rdynamic 
+make[1]: Leaving directory '/home/nickbedbury/blhost/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates

@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/blhost.dir/blfwk/ExcludesListMatcher.cpp.o"
+  "CMakeFiles/blhost.dir/blfwk/BusPalPeripheral.cpp.o"
+  "CMakeFiles/blhost.dir/blfwk/DataTarget.cpp.o"
+  "CMakeFiles/blhost.dir/blfwk/StExecutableImage.cpp.o"
+  "CMakeFiles/blhost.dir/blfwk/UartPeripheral.cpp.o"
+  "CMakeFiles/blhost.dir/blfwk/IntelHexSourceFile.cpp.o"
+  "CMakeFiles/blhost.dir/blfwk/ELFSourceFile.cpp.o"
+  "CMakeFiles/blhost.dir/blfwk/utils.cpp.o"
+  "CMakeFiles/blhost.dir/blfwk/Bootloader.cpp.o"
+  "CMakeFiles/blhost.dir/blfwk/GlobMatcher.cpp.o"
+  "CMakeFiles/blhost.dir/blfwk/DataSource.cpp.o"
+  "CMakeFiles/blhost.dir/blfwk/format_string.cpp.o"
+  "CMakeFiles/blhost.dir/blfwk/StSRecordFile.cpp.o"
+  "CMakeFiles/blhost.dir/blfwk/StELFFile.cpp.o"
+  "CMakeFiles/blhost.dir/blfwk/SRecordSourceFile.cpp.o"
+  "CMakeFiles/blhost.dir/blfwk/Command.cpp.o"
+  "CMakeFiles/blhost.dir/blfwk/Value.cpp.o"
+  "CMakeFiles/blhost.dir/blfwk/SearchPath.cpp.o"
+  "CMakeFiles/blhost.dir/blfwk/jsoncpp.cpp.o"
+  "CMakeFiles/blhost.dir/blfwk/StIntelHexFile.cpp.o"
+  "CMakeFiles/blhost.dir/blfwk/Blob.cpp.o"
+  "CMakeFiles/blhost.dir/blfwk/Logging.cpp.o"
+  "CMakeFiles/blhost.dir/blfwk/SBSourceFile.cpp.o"
+  "CMakeFiles/blhost.dir/blfwk/GHSSecInfo.cpp.o"
+  "CMakeFiles/blhost.dir/blfwk/DataSourceImager.cpp.o"
+  "CMakeFiles/blhost.dir/blfwk/SerialPacketizer.cpp.o"
+  "CMakeFiles/blhost.dir/blfwk/options.cpp.o"
+  "CMakeFiles/blhost.dir/blfwk/SourceFile.cpp.o"
+  "CMakeFiles/blhost.dir/blfwk/BusPal.cpp.o"
+  "CMakeFiles/blhost.dir/blfwk/Updater.cpp.o"
+  "CMakeFiles/blhost.dir/blfwk/serial.c.o"
+  "CMakeFiles/blhost.dir/crc/crc16.c.o"
+  "CMakeFiles/blhost.dir/crc/crc32.c.o"
+  "CMakeFiles/blhost.dir/blhost.cpp.o"
+  "blhost.pdb"
+  "blhost"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C CXX)
+  include(CMakeFiles/blhost.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
