@@ -1,7 +1,7 @@
 # blhost
 Modifications of NXP blhost to run on an iMX6UL and update the Kinetis microcontroller via UART only.
 
-Compile in a separate directory with the following commands:
+From the root of the repo, compile in a "build" directory with the following commands:
 
 mkdir build
 
